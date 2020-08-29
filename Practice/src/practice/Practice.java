@@ -4,7 +4,7 @@ public class Practice {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
- int marks = 1002;
+ int marks = 1;
  	if(marks<35) {
  		System.out.println("fail");
  	}else if(marks >=35 && marks<45) {

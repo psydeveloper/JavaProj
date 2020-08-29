@@ -4,26 +4,15 @@ public class pn0 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
- int marks = 1;
- 	if(marks<35) {
- 		System.out.println("fail");
- 	}else if(marks >=35 && marks<45) {
- 		System.out.println("D Grade");
+ int num = 10;
+ 	if(num>=1) {
+ 		System.out.println("Positive");
+ 	}else if(num<0) {
+ 		System.out.println("Negetive");
  		
- 	}else if(marks >=45 && marks<60) {
- 		System.out.println("C Grade");
- 		
- 	}else if(marks >=60 && marks<75) {
- 		System.out.println("B Grade");
- 		
- 	}else if(marks >=75 && marks<90) {
- 		System.out.println("A Grade");
- 		
- 	}else if(marks >=90 && marks<100) {
- 		System.out.println("Wow Grade");
  		
  	}else {
- 		System.out.println("Cheater");
+ 		System.out.println("zero");
  	}
 	}
 
