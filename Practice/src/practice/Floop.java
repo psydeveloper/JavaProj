@@ -7,17 +7,21 @@ public class Floop {
 		//for(int i=1;i<5;i++) {
 	//		System.out.println(i);
 	//	}     OR
-	int n=5;
-		for(int i=0;i<5;i++) {
+	for(int i = 0;i<=10;i = i+2) {
+		System.out.println(i);
+		//or
+	}
+	//int n=5;
+		//for(int i=0;i<5;i++) {
 			
-			for(int j=0;j<=i;j++) {
+			//for(int j=0;j<=i;j++) {
 				
-				System.out.print("*");
+				//System.out.print("*");
 			}
-			System.out.println();
-		}
+			//System.out.println();
+//}
 		
 	
 	}
 
-}
+//}
